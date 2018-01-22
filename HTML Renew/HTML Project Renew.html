@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML CV</title>
+
+    <style>
+
+    body {margin: 0;}
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    ul.topnav li {float: left;}
+
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+    ul.topnav li a.active {
+      background-color: #4CAF50;
+      margin-left: 450%;
+      width: 100%;
+    }
+
+
+    #contact{
+      margin-left: 350%;
+    }
+
+    #portfolio{
+      margin-left: 1000%;
+    }
+
+    ul.topnav li.right {float: right;}
+
+    @media screen and (max-width: 600px){
+        ul.topnav li.right,
+        ul.topnav li {float: none;}
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <ul class="topnav">
+      <li><a class="active"<a id="home" href="#C1">Home</a></li>
+      <li><a class="active"<a id="portfolio" href="#C4">Portfolio</a></li>
+      <li><a class="active"<a id="contact" href="#C5">Contact details</a></li>
+    </ul>
+    <div style="padding:0 16px;">
+    </div>
+
+  </body>
+</html>
